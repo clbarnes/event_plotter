@@ -1,0 +1,11 @@
+# saves
+auto/
+*~
+\#*
+.\#*
+
+# project outputs
+outputs/*
+!outputs/.gitkeep
+example_video_feature_file.mat
+test.m
