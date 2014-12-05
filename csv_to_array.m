@@ -8,7 +8,7 @@ table = readtable(csv_path,'Delimiter',',','ReadVariableNames',false, 'ReadRowNa
 
 array = table2array(table(event_name, :));
 
-if max(array) < 2
+if max(array) < 1
     out = array;
     return
 end
